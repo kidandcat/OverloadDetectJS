@@ -3,7 +3,7 @@
           setInterval(function(){
             var x = timer.end();
             timer.start();
-            if(x > 1.300 || x < 0.700){
+            if(x > 1.150 || x < 0.850){
               numbers++;
             }
             if(numbers > 3){
