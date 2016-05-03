@@ -3,11 +3,11 @@
           setInterval(function(){
             var x = timer.end();
             timer.start();
-            if(x > 1.150 || x < 0.850){
+            if(x > 1.250 || x < 0.750){
               numbers++;
             }
             if(numbers > 3){
-              alert('System Overload!¡!');
+              alert('System Overload!!');
               numbers = 0;
             }
           },1000);
